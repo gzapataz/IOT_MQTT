@@ -12,7 +12,7 @@ Vagrant.configure(2) do |config|
   config.vm.box = 'dummy'
 
   # Synced folder
-  config.vm.synced_folder "./repositorio", "/home/ubuntu", type: "smb", smb_host: "186.80.103.103", smb_username: "Gabriel", smb_password: "esb", mount_options: ["username=esb","password=esb"]
+  config.vm.synced_folder "./repositorio", "/home/ubuntu", type: "smb", smb_host: "XXXXX", smb_username: "XXXXX", smb_password: "XXXXX", mount_options: ["username=esb","password=esb"]
 
   # Configuration
   config.vm.provider :aws do |aws, override|
